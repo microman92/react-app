@@ -1,0 +1,13 @@
+.content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-items {
+    display: grid;
+    grid-template-columns: repeat(3, 325px);
+    row-gap: 35px;
+    column-gap: 45px;
+    margin-top: 40px;
+}

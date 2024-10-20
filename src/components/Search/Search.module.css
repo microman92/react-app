@@ -1,0 +1,39 @@
+label input {
+    font-size: 14px;
+    color: var(--text-color);
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 15px 20px 45px 0 #efefef;
+    background: #fcfcfd;
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 44px;
+}
+
+label input::placeholder {
+    color: #9aa0b4;
+}
+
+.input__title {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+}
+
+.search-label {
+    position: relative;
+    max-width: 256px;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}

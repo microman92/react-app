@@ -1,0 +1,45 @@
+.succes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.succes-title {
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--text-color);
+    max-width: 320px;
+    margin: 60px 0;
+}
+
+.succes-img {animation: img 8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite;
+}
+
+
+@keyframes img {0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+        /* Поворачиваем элемент на 180 градусов */
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    75% {
+        transform: rotate(180deg);
+        /* Полный оборот по часовой стрелке */
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

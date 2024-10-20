@@ -1,0 +1,26 @@
+.layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo,
+.content {
+    flex: 1;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    border-left: 1px solid var(--separator-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 90px;
+}

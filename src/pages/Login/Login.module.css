@@ -1,0 +1,59 @@
+.login {
+    max-width: 325px;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.label {
+    font-size: 17px;
+    color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.label input {
+    width: 100%;
+}
+
+.form-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.form-bottom span {
+    font-weight: 600;
+    color: #5b5b5e;
+}
+
+.btn {
+    margin: 0 auto;
+    margin-top: 44px;
+    padding: 20px 75px;
+}
+
+.regLink {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.error {
+    font-size: 18px;
+    font-weight: 500;
+    color: red;
+    margin-top: 20px;
+}

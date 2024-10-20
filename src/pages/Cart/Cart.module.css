@@ -1,0 +1,37 @@
+.order {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 525px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.summary-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--separator-color);
+}
+
+.summary-item span {
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.summary-item .cash {
+    font-size: 14px;
+    color: #9796a1;
+    margin-left: 5px;
+}
+
+.buy {
+    margin-top: 75px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

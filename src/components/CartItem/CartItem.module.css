@@ -1,0 +1,105 @@
+.carts {
+    margin-top: 40px;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.carts-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0px 5px var(--separator-color);
+    border-radius: 20px 10px 10px 20px;
+    padding-right: 20px;
+}
+
+.carts-img {
+    width: 82px;
+    height: 82px;
+    box-shadow: 0 8px 25px 0 rgba(224, 219, 196, 0.9);
+    border-radius: 20px;
+}
+
+.carts-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.carts-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.carts-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.carts-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.carts-price {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.carts-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.carts-counter {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn,
+.delete {
+    width: 29px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    transition: .3s ease;
+}
+
+.delete {
+    border: none;
+}
+
+.btn svg line,
+.delete svg path,
+.delete {
+    transition: .3s ease;
+}
+
+.btn:hover {
+    background: var(--primary-color);
+}
+
+.btn:hover svg line {
+    stroke: var(--white-color);
+}
+
+.delete:hover {
+    background: var(--primary-color);
+}
+
+.delete:hover svg path {
+    stroke: var(--white-color);
+}
